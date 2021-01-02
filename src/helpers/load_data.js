@@ -1,11 +1,13 @@
+import { publicPath } from "../../vue.config";
+
 export function load_rumors() {
-  return fetch("/rumors.json")
+  return fetch(publicPath + "rumors.json")
     .then(response => response.json())
     .then(events => flatten_events(events));
 }
 
 export function load_announcements() {
-  return fetch("/announcements.json")
+  return fetch(publicPath + "announcements.json")
     .then(response => response.json())
     .then(events => flatten_events(events));
 }

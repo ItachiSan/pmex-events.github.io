@@ -10,7 +10,7 @@
       <li @click="redirect('discord')">
         <b>Discord</b>
         <!-- Icons cannot be handled from Webpack, it seems... -->
-        <img class="icon" src="/img/icons/discord.ico" />
+        <img class="icon" src="./img/icons/discord.ico" />
       </li>
       <li @click="redirect('reddit')">
         <b>Reddit</b>
@@ -18,11 +18,11 @@
       </li>
       <li @click="redirect('twitterjp')">
         <b>Twitter JP</b>
-        <img class="icon" src="/img/icons/discord.ico" />
+        <img class="icon" src="./img/icons/twitter.ico" />
       </li>
       <li @click="redirect('twitteren')">
         <b>Twitter EN</b>
-        <img class="icon" src="/img/icons/discord.ico" />
+        <img class="icon" src="./img/icons/twitter.ico" />
       </li>
       <li @click="redirect('website')">
         <b>Official Website</b>
