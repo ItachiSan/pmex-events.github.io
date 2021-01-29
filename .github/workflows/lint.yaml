@@ -1,0 +1,24 @@
+# Refactored from the publishing workflow.
+# Rather than using stable dependencies, verify that the build works and lint it.
+
+name: Linting
+
+on: [pull_request]
+
+env:
+  NODE_VERSION: '14'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - run: npm install
+      - run: npm run lint
