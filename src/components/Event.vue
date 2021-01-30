@@ -34,8 +34,7 @@ export default {
       } else {
         return Error("Invalid type: please use only 'begin' or 'end'");
       }
-      if (date === null)
-        return "TBA";
+      if (date === null) return "TBA";
       return date.toDateString();
     },
     eventMessage() {

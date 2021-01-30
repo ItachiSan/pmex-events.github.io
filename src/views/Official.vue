@@ -22,7 +22,9 @@ export default {
     let now = new Date(Date.now());
     load_announcements()
       .then(announcements =>
-        announcements.filter(announcement => announcement.date > now || announcement.date === null)
+        announcements.filter(
+          announcement => announcement.date > now || announcement.date === null
+        )
       )
       .then(announcements => (this.events = announcements));
   }

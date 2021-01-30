@@ -1,6 +1,11 @@
 <template>
   <div class="single-event-counter">
-    <b v-for="title in adjustedTitles" :key="title" v-html="title" class="counter-title" /> 
+    <b
+      v-for="title in adjustedTitles"
+      :key="title"
+      v-html="title"
+      class="counter-title"
+    />
     <span class="small-date">
       <i>{{ date.toDateString() }}</i>
     </span>
@@ -35,13 +40,14 @@ export default {
     },
     // TODO: Try to use `require()`
     adjustedTitles() {
-      return this.titles.map(
-        title => title.replace(/\[grid\]/g, '<img src="./img/grid.png"/>')
-        .replace(/\[ex\]/g, '<img src="./img/ex.png"/>')
-        .replace(
-          /\[gridEX\]/g,
-          '<img src="./img/grid.png"/><img src="./img/ex.png"/>'
-        )
+      return this.titles.map(title =>
+        title
+          .replace(/\[grid\]/g, '<img src="./img/grid.png"/>')
+          .replace(/\[ex\]/g, '<img src="./img/ex.png"/>')
+          .replace(
+            /\[gridEX\]/g,
+            '<img src="./img/grid.png"/><img src="./img/ex.png"/>'
+          )
       );
     }
   },

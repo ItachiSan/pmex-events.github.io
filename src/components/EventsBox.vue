@@ -44,7 +44,7 @@ export default {
     events: Array,
     sortBy: String,
     filterDates: String,
-    emptyMessage: String,
+    emptyMessage: String
   },
   computed: {
     sortedEvents() {
@@ -56,15 +56,14 @@ export default {
       return result;
     },
     specialEvent() {
-      if (this.sortedEvents.length < 1)
-        return null;
+      if (this.sortedEvents.length < 1) return null;
 
       let criteria = this.sortBy;
-      let result = {...this.sortedEvents[0]};
-      
+      let result = { ...this.sortedEvents[0] };
+
       // Prepare the special event(s) with the counter
       result.titles = [result.title];
-      
+
       let event_index = 1;
       let event_to_check = this.sortedEvents[event_index];
 
@@ -73,12 +72,11 @@ export default {
         event_index += 1;
         event_to_check = this.sortedEvents[event_index];
       }
-      
+
       return result;
     },
     otherEvents() {
-      if (!this.specialEvent)
-        return this.sortedEvents;
+      if (!this.specialEvent) return this.sortedEvents;
       return this.sortedEvents.slice(this.specialEvent.titles.length);
     }
   }

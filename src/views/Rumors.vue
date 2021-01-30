@@ -16,7 +16,7 @@ import EventsBox from "@/components/EventsBox";
 
 export default {
   components: {
-    EventsBox,
+    EventsBox
   },
   data() {
     return { events: [] };
@@ -25,14 +25,14 @@ export default {
     load_rumors()
       .then(
         // Remove the ongoing rumors
-        (rumors) => {
+        rumors => {
           let now = new Date(Date.now());
-          return rumors.filter((event) => event.date >= now);
+          return rumors.filter(event => event.date >= now);
         }
       )
-      .then((rumors) => {
+      .then(rumors => {
         this.events = rumors;
       });
-  },
+  }
 };
 </script>

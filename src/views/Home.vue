@@ -22,7 +22,6 @@ export default {
         You can also check the source code of this project
         <a href="https://github.com/ItachiSan/pmex-events">here</a>.
       `
-
     };
   }
 };
