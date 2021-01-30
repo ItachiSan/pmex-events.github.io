@@ -18,8 +18,8 @@ export function flatten_events(events) {
     for (let title of an_event.name) {
       result.push({
         title: title,
-        date: new Date(an_event.date + " 06:00:00 UTC"),
-        expires: new Date(an_event.expires + " 06:00:00 UTC")
+        date: an_event.date === "TBA" ? null : new Date(an_event.date + " 06:00:00 UTC"),
+        expires: an_event.expires ? new Date(an_event.expires + " 06:00:00 UTC") : null
       });
     }
   }

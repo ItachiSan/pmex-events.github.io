@@ -1,9 +1,8 @@
 <template>
   <div id="rumors">
     <events-box
-      id="other-rumors"
-      :special-event="next_event"
-      :events="other_events"
+      id="rumors"
+      :events="events"
       sort-by="begin"
       filter-dates="future"
       empty-message="No rumors yet."
@@ -17,28 +16,23 @@ import EventsBox from "@/components/EventsBox";
 
 export default {
   components: {
-    EventsBox
+    EventsBox,
   },
   data() {
-    return { next_event: null, other_events: [] };
+    return { events: [] };
   },
   mounted() {
     load_rumors()
       .then(
         // Remove the ongoing rumors
-        rumors => {
+        (rumors) => {
           let now = new Date(Date.now());
-          return rumors.filter(event => event.date >= now);
+          return rumors.filter((event) => event.date >= now);
         }
       )
-      .then(rumors => {
-        if (rumors.length > 0) {
-          this.next_event = rumors[0];
-          this.other_events = rumors.slice(1);
-        } else {
-          this.events = rumors;
-        }
+      .then((rumors) => {
+        this.events = rumors;
       });
-  }
+  },
 };
 </script>

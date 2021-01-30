@@ -3,16 +3,17 @@
     <!-- Special event counter -->
     <event-counter
       v-if="specialEvent"
-      :title="specialEvent.title"
-      :date="specialEvent.date"
-      :expires="specialEvent.expires"
+      :titles="specialEvent.titles"
+      :begin="specialEvent.date"
+      :end="specialEvent.expires"
+      :show="sortBy"
     />
     <br v-if="specialEvent" />
     <hr v-if="specialEvent" />
     <br v-if="specialEvent" />
     <!-- Normal events -->
     <event
-      v-for="event in sortedEvents"
+      v-for="event in otherEvents"
       :key="event.name"
       :title="event.title"
       :date="event.date"
@@ -22,7 +23,7 @@
     </event>
     <!-- Fallback box -->
     <div v-if="sortedEvents.length === 0">
-      <p>{{ emptyMessage }}</p>
+      <p v-html="emptyMessage" />
       <br />
       <hr />
       <br />
@@ -40,11 +41,10 @@ export default {
   name: "EventsBox",
   props: {
     id: String,
-    specialEvent: Object,
     events: Array,
     sortBy: String,
     filterDates: String,
-    emptyMessage: String
+    emptyMessage: String,
   },
   computed: {
     sortedEvents() {
@@ -54,6 +54,32 @@ export default {
       result = result.sort((a, b) => compare_dates(a, b, criteria));
 
       return result;
+    },
+    specialEvent() {
+      if (this.sortedEvents.length < 1)
+        return null;
+
+      let criteria = this.sortBy;
+      let result = {...this.sortedEvents[0]};
+      
+      // Prepare the special event(s) with the counter
+      result.titles = [result.title];
+      
+      let event_index = 1;
+      let event_to_check = this.sortedEvents[event_index];
+
+      while (compare_dates(event_to_check, result, criteria) <= 0) {
+        result.titles.push(event_to_check.title);
+        event_index += 1;
+        event_to_check = this.sortedEvents[event_index];
+      }
+      
+      return result;
+    },
+    otherEvents() {
+      if (!this.specialEvent)
+        return this.sortedEvents;
+      return this.sortedEvents.slice(this.specialEvent.titles.length);
     }
   }
 };

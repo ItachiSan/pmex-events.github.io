@@ -16,8 +16,13 @@ export default {
   data() {
     return {
       events: [],
-      longMessage:
-        "Use one of the above buttons for viewing events or reaching other websites."
+      longMessage: `
+        Use one of the above buttons for viewing events or reaching other websites.
+        <br><br>
+        You can also check the source code of this project
+        <a href="https://github.com/ItachiSan/pmex-events">here</a>.
+      `
+
     };
   }
 };

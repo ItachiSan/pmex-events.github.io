@@ -1,7 +1,6 @@
 <template>
   <div class="single-event-counter">
-    <b v-html="adjustedTitle" />
-    <br />
+    <b v-for="title in adjustedTitles" :key="title" v-html="title" class="counter-title" /> 
     <span class="small-date">
       <i>{{ date.toDateString() }}</i>
     </span>
@@ -15,23 +14,35 @@
 <script>
 export default {
   props: {
-    title: String,
-    date: Date,
-    expires: Date
+    titles: Array[String],
+    begin: Date,
+    end: Date,
+    show: String
   },
   data() {
     return { days: "...", hours: "...", minutes: "...", seconds: "..." };
   },
   computed: {
+    date() {
+      switch (this.show) {
+        case "begin":
+          return this.begin;
+        case "end":
+          return this.end;
+        default:
+          return Error;
+      }
+    },
     // TODO: Try to use `require()`
-    adjustedTitle() {
-      return this.title
-        .replace(/\[grid\]/g, '<img src="./img/grid.png"/>')
+    adjustedTitles() {
+      return this.titles.map(
+        title => title.replace(/\[grid\]/g, '<img src="./img/grid.png"/>')
         .replace(/\[ex\]/g, '<img src="./img/ex.png"/>')
         .replace(
           /\[gridEX\]/g,
           '<img src="./img/grid.png"/><img src="./img/ex.png"/>'
-        );
+        )
+      );
     }
   },
   methods: {
@@ -69,6 +80,10 @@ export default {
 .single-event-counter * {
   display: inline-block;
   padding: 2px;
+}
+
+.counter-title {
+  display: block;
 }
 
 .small-date {
