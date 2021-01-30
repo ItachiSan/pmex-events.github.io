@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/robots.txt"
   },
   {
-    "revision": "cabeafa7f304fa7c9ffc0a2f6660902a",
+    "revision": "c08af50c55b2e6908f071681e6b842ba",
     "url": "/pmex-events/rumors.json"
   }
 ]);
