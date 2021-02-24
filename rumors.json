@@ -211,7 +211,7 @@
     "expires": "March 11, 2021"
   },
   {
-    "name": ["Grimsley and Karen Spotlight Scout"],
+    "name": ["Grimsley [grid] and Karen [grid] Spotlight Scout"],
     "date": "February 8, 2021",
     "expires": "February 26, 2021"
   },
@@ -224,7 +224,7 @@
     "expires": "March 4, 2021"
   },
   {
-    "name": ["Serena [gridEX] and Clemont Spotlight Scout"],
+    "name": ["Serena [gridEX] and Clemont [grid] Spotlight Scout"],
     "date": "February 15, 2021",
     "expires": "March 4, 2021"
   },
@@ -232,11 +232,6 @@
     "name": ["Legendary Arena: Cresselia"],
     "date": "February 18, 2021",
     "expires": "March 4, 2021"
-  },
-  {
-    "name": ["The Story Continues!"],
-    "date": "February 18, 2021",
-    "expires": "February 25, 2021"
   },
   {
     "name": ["Piers [gridEX] Spotlight Scout"],
@@ -247,5 +242,110 @@
     "name": ["Lance [gridEX] and Sygna Suit Cynthia [gridEX] Poké Fair Scout"],
     "date": "February 22, 2021",
     "expires": "March 4, 2021"
+  },
+  {
+    "name": ["1.5 Year Celebration Log-In Bonus"],
+    "date": "February 26, 2021",
+    "expires": "March 15, 2021"
+  },
+  {
+    "name": ["1.5 Year Celebration Special Missions"],
+    "date": "February 26, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["1.5 Year Celebration Gem Specials"],
+    "date": "February 26, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["Story Event: Champion Time"],
+    "date": "February 26, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["1.5 Year Celebration Rally"],
+    "date": "March 1, 2021",
+    "expires": "April 30, 2021"
+  },
+  {
+    "name": ["Solo Event: Yell and Dream"],
+    "date": "March 4, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["The Battle Villa Is Open!"],
+    "date": "March 11, 2021",
+    "expires": "March 25, 2021"
+  },
+  {
+    "name": ["Legendary Event: New World Dilemma"],
+    "date": "March 15, 2021",
+    "expires": "April 8, 2021"
+  },
+  {
+    "name": ["Story Event: Shining Heart of Dragons"],
+    "date": "March 18, 2021",
+    "expires": "April 2, 2021"
+  },
+  {
+    "name": ["Shining Heart of Dragons Log-In Bonus"],
+    "date": "March 18, 2021",
+    "expires": "April 3, 2021"
+  },
+  {
+    "name": ["Blissful Bonanza!"],
+    "date": "March 22, 2021",
+    "expires": "April 2, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Latias"],
+    "date": "March 31, 2021",
+    "expires": "April 14, 2021"
+  },
+  {
+    "name": ["Fairy- and Normal-Type Egg Event"],
+    "date": "March 31, 2021",
+    "expires": "April 14, 2021"
+  },
+  {
+    "name": ["Leon [gridEX] Master Fair Scout"],
+    "date": "February 26, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["Marnie [gridEX] Poké Fair Scout"],
+    "date": "February 26, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["5★-Select Special Scout ×11"],
+    "date": "February 28, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["Gloria Poké Fair Scout"],
+    "date": "March 4, 2021",
+    "expires": "March 18, 2021"
+  },
+  {
+    "name": ["Lisia [gridEX] Spotlight Scout"],
+    "date": "March 15, 2021",
+    "expires": "March 29, 2021"
+  },
+  {
+    "name": ["Iris [gridEX] Poké Fair Scout"],
+    "date": "March 18, 2021",
+    "expires": "April 2, 2021"
+  },
+  {
+    "name": ["Hilbert [gridEX] and Caitlin [grid] Spotlight Scout"],
+    "date": "March 22, 2021",
+    "expires": "April 2, 2021"
+  },
+  {
+    "name": ["Diantha [gridEX] Poké Fair Scout"],
+    "date": "March 31, 2021",
+    "expires": "April 22, 2021"
   }
 ]
