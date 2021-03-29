@@ -28,11 +28,17 @@
     "date": "January 21, 2021"
   },
   {
-    "name": ["Valentine's Day Story Event","Serena & Whimsicott (Valentine's Day 2021) Scout"],
+    "name": [
+      "Valentine's Day Story Event",
+      "Serena & Whimsicott (Valentine's Day 2021) Scout"
+    ],
     "date": "January 29, 2021"
   },
   {
-    "name": ["Battle Villa Challenge","Fighting-, Grass-, and Rock-Type Egg Event"],
+    "name": [
+      "Battle Villa Challenge",
+      "Fighting-, Grass-, and Rock-Type Egg Event"
+    ],
     "date": "February 4, 2021"
   },
   {
@@ -44,11 +50,15 @@
     "date": "February 11, 2021"
   },
   {
-    "name": ["6★ EX Skyla Unlocked","6★ EX Korrina Unlocked"],
-    "date": "TBA"
+    "name": ["6★ EX Skyla Unlocked"],
+    "date": "February 26, 2021"
   },
   {
     "name": ["6★ EX Barry Unlocked"],
+    "date": "March 29, 2021"
+  },
+  {
+    "name": ["6★ EX Korrina Unlocked"],
     "date": "TBA"
   }
 ]
