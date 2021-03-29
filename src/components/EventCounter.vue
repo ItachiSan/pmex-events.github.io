@@ -7,7 +7,8 @@
       class="counter-title"
     />
     <span class="small-date">
-      <i>{{ date.toDateString() }}</i>
+      <i v-if="date">{{ date.toDateString() }}</i>
+      <i v-else>TBA</i>
     </span>
     <br />
     <span class="counter-date"
@@ -55,6 +56,14 @@ export default {
     countdown() {
       // console.log("Counting down!");
       let now = new Date(Date.now());
+      // Handle undefined dates
+      if (this.date === null) {
+        this.days = "?";
+        this.hours = "?";
+        this.minutes = "?";
+        this.seconds = "?";
+        return;
+      }
       let difference = this.date - now;
       let difference_in_seconds = difference / 1000;
       // Extract days

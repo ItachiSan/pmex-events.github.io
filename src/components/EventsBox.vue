@@ -67,7 +67,10 @@ export default {
       let event_index = 1;
       let event_to_check = this.sortedEvents[event_index];
 
-      while (compare_dates(event_to_check, result, criteria) <= 0) {
+      while (
+        event_to_check &&
+        compare_dates(event_to_check, result, criteria) <= 0
+      ) {
         result.titles.push(event_to_check.title);
         event_index += 1;
         event_to_check = this.sortedEvents[event_index];
