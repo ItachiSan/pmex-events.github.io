@@ -530,7 +530,9 @@
     "expires": "June 21, 2021"
   },
   {
-    "name": ["Legendary Event: The Beast That Devours the Sun (Solgaleo [grid])"],
+    "name": [
+      "Legendary Event: The Beast That Devours the Sun (Solgaleo [grid])"
+    ],
     "date": "June 7, 2021",
     "expires": "July 26, 2021"
   },
@@ -608,5 +610,115 @@
     "name": ["Legendary Arena: Regirock"],
     "date": "June 25, 2021",
     "expires": "July 9, 2021"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "June 30, 2021",
+    "expires": "July 15, 2021"
+  },
+  {
+    "name": ["Story Event: All Aboard the Victory Train"],
+    "date": "June 30, 2021",
+    "expires": "July 15, 2021"
+  },
+  {
+    "name": ["Ingo [gridEX] Poké Fair Scout"],
+    "date": "June 30, 2021",
+    "expires": "July 22, 2021"
+  },
+  {
+    "name": ["Emmet [gridEX] Poké Fair Scout"],
+    "date": "June 30, 2021",
+    "expires": "July 22, 2021"
+  },
+  {
+    "name": ["Gem Special + Present!"],
+    "date": "July 1, 2021",
+    "expires": "August 1, 2021"
+  },
+  {
+    "name": ["Unova 5★-Guaranteed Scout"],
+    "date": "July 2, 2021",
+    "expires": "July 15, 2021"
+  },
+  {
+    "name": ["The Battle Villa Is Open!"],
+    "date": "July 5, 2021",
+    "expires": "July 19, 2021"
+  },
+  {
+    "name": ["Rock-Type Gear Event"],
+    "date": "July 8, 2021",
+    "expires": "July 15, 2021"
+  },
+  {
+    "name": ["Olivia and Kukui Spotlight Scout"],
+    "date": "July 12, 2021",
+    "expires": "July 26, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Moltres"],
+    "date": "July 12, 2021",
+    "expires": "July 26, 2021"
+  },
+  {
+    "name": ["Rock- and Ground-Type Egg Event"],
+    "date": "July 12, 2021",
+    "expires": "July 26, 2021"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "July 15, 2021",
+    "expires": "July 30, 2021"
+  },
+  {
+    "name": ["Gloria Seasonal [gridEX] Tiered Scout"],
+    "date": "July 15, 2021",
+    "expires": "July 31, 2021"
+  },
+  {
+    "name": ["Story Event: Beachside Rivalry"],
+    "date": "July 15, 2021",
+    "expires": "July 31, 2021"
+  },
+  {
+    "name": ["Marnie Seasonal [gridEX] Tiered Scout"],
+    "date": "July 17, 2021",
+    "expires": "July 31, 2021"
+  },
+  {
+    "name": ["Steven and Lyra Seasonal Scout"],
+    "date": "July 20, 2021",
+    "expires": "August 3, 2021"
+  },
+  {
+    "name": ["Story Event: Summer Superstars"],
+    "date": "July 20, 2021",
+    "expires": "August 3, 2021"
+  },
+  {
+    "name": ["Sync Pair-Up Event: Bugsy & Scyther"],
+    "date": "July 22, 2021",
+    "expires": "August 5, 2021"
+  },
+  {
+    "name": ["Special Rally"],
+    "date": "July 26, 2021",
+    "expires": "August 2, 2021"
+  },
+  {
+    "name": ["Legendary Event: Lurking Shadow", "Mewtwo [grid] Sync Grid"],
+    "date": "July 26, 2021",
+    "expires": "August 19, 2021"
+  },
+  {
+    "name": ["Lisia and Glacia Spotlight Scout"],
+    "date": "July 27, 2021",
+    "expires": "August 10, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Latios"],
+    "date": "July 27, 2021",
+    "expires": "August 10, 2021"
   }
 ]

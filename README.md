@@ -25,6 +25,7 @@ The new rumors will be then in `bin/new_rumors.json`.
 In case the result is weird, verify the event log has no weird data (sometimes Discord adds the messages time
 to the copied content).
 
+Remember to add the magic *grid*, *EX* or *gridEX* in square brackets e.g. `[gridEX]` where needed.
 
 ## Add new events / announcements
 Create your own fork and add the relevant information in the proper JSON file within the `public`
