@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/robots.txt"
   },
   {
-    "revision": "3fdf1d3ec52e3ac9901e69a25208bd2a",
+    "revision": "6dbd4a7196c7fae72d93e16313576a4a",
     "url": "/pmex-events/rumors.json"
   }
 ]);
