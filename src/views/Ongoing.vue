@@ -1,20 +1,23 @@
 <template>
-  <events-box
-    id="ongoing"
-    :events="events"
-    sort-by="end"
-    filter-dates="after"
-    empty-message="No events tracked."
-  />
+  <div id="ongoing">
+    <special-message message="List of the currently ongoing events." />
+    <events-box
+      :events="events"
+      sort-by="end"
+      empty-message="No events tracked."
+    />
+  </div>
 </template>
 
 <script>
 import EventsBox from "@/components/EventsBox";
 import { load_rumors } from "../helpers/load_data";
+import SpecialMessage from "@/components/SpecialMessage";
 
 export default {
   components: {
-    EventsBox
+    EventsBox,
+    SpecialMessage
   },
   data() {
     return { events: [] };

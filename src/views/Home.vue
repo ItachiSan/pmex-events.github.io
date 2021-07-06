@@ -1,5 +1,7 @@
 <template>
   <events-box
+    id="home"
+    class="home-box"
     date-to-use="begin"
     :empty-message="longMessage"
     :events="events"
@@ -26,3 +28,12 @@ export default {
   }
 };
 </script>
+
+<style>
+/*
+Override the top margin with a bigger one, as we have no special message in this page.
+*/
+.home-box {
+  margin-top: 100px;
+}
+</style>

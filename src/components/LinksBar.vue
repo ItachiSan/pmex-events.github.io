@@ -4,6 +4,7 @@
       <router-link tag="li" to="/"><b>Home</b></router-link>
       <router-link tag="li" to="/ongoing"><b>Ongoing Events</b></router-link>
       <router-link tag="li" to="/rumors"><b>Rumors</b></router-link>
+      <router-link tag="li" to="/past"><b>Past Events</b></router-link>
       <router-link tag="li" to="/official"
         ><b>Official Announcements</b></router-link
       >

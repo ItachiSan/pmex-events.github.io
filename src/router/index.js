@@ -6,6 +6,7 @@ import Home from "@/views/Home";
 import Ongoing from "@/views/Ongoing";
 import Rumors from "@/views/Rumors";
 import Official from "@/views/Official";
+import Past from "@/views/Past";
 
 Vue.use(VueRouter);
 
@@ -28,6 +29,11 @@ const routes = [
     path: "/rumors",
     name: "Rumors",
     component: Rumors
+  },
+  {
+    path: "/past",
+    name: "Past Events",
+    component: Past
   },
   {
     path: "/official",

@@ -1,12 +1,12 @@
 <template>
-  <div id="rumors">
-    <special-message
-      message="List of the events recovered from the datamine."
-    />
+  <div id="past">
+    <special-message message="This page reports all the completed events." />
     <events-box
       :events="events"
-      sort-by="begin"
-      empty-message="No rumors yet."
+      sort-by="end"
+      skip-sort
+      skip-special
+      empty-message="No new official announcements."
     />
   </div>
 </template>
@@ -30,7 +30,14 @@ export default {
         // Remove the ongoing rumors
         rumors => {
           let now = new Date(Date.now());
-          return rumors.filter(event => event.date >= now);
+          return (
+            rumors
+              .filter(event => event.expires < now)
+              // Thanks to "skipSort" we can sort stuff manually! So here we put newest to olders
+              .sort((a, b) => b.expires - a.expires)
+          );
+          // Return only the last 50 events
+          //.slice(0, 50);
         }
       )
       .then(rumors => {

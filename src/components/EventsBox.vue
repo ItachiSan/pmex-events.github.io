@@ -43,7 +43,8 @@ export default {
     id: String,
     events: Array,
     sortBy: String,
-    filterDates: String,
+    skipSort: Boolean,
+    skipSpecial: Boolean,
     emptyMessage: String
   },
   computed: {
@@ -51,12 +52,14 @@ export default {
       // Now sort them accordingly
       let criteria = this.sortBy;
       let result = [...this.events];
-      result = result.sort((a, b) => compare_dates(a, b, criteria));
+      if (!this.skipSort)
+        result = result.sort((a, b) => compare_dates(a, b, criteria));
 
       return result;
     },
     specialEvent() {
       if (this.sortedEvents.length < 1) return null;
+      if (this.skipSpecial) return null;
 
       let criteria = this.sortBy;
       let result = { ...this.sortedEvents[0] };
@@ -90,7 +93,7 @@ export default {
 .events-box {
   background-color: rgba(0, 0, 0, 0.15);
   padding: 10px;
-  margin-top: 100px;
+  margin-top: 20px;
   display: inline-block;
   color: white;
   border-style: solid;
