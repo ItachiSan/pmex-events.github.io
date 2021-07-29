@@ -687,7 +687,7 @@
     "expires": "July 31, 2021"
   },
   {
-    "name": ["Steven and Lyra Seasonal Scout"],
+    "name": ["Steven [gridEX] and Lyra [gridEX] Seasonal Scout"],
     "date": "July 20, 2021",
     "expires": "August 3, 2021"
   },
@@ -697,7 +697,7 @@
     "expires": "August 3, 2021"
   },
   {
-    "name": ["Sync Pair-Up Event: Bugsy & Scyther"],
+    "name": ["Sync Pair-Up Event: Bugsy & Scyther [grid]"],
     "date": "July 22, 2021",
     "expires": "August 5, 2021"
   },
@@ -712,7 +712,7 @@
     "expires": "August 19, 2021"
   },
   {
-    "name": ["Lisia and Glacia Spotlight Scout"],
+    "name": ["Lisia [gridEX] and Glacia [grid] Spotlight Scout"],
     "date": "July 27, 2021",
     "expires": "August 10, 2021"
   },
@@ -720,5 +720,160 @@
     "name": ["Legendary Arena: Latios"],
     "date": "July 27, 2021",
     "expires": "August 10, 2021"
+  },
+  {
+    "name": ["The Story Continues!"],
+    "date": "July 30, 2021",
+    "expires": "August 6, 2021"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "July 30, 2021",
+    "expires": "August 12, 2021"
+  },
+  {
+    "name": [
+      "Triple Feature (SS Kanto) Poké Fair Scout",
+      "SS Red [gridEX] Poké Fair Scout",
+      "SS Blue [gridEX] Poké Fair Scout",
+      "SS Leaf [gridEX] Poké Fair Scout"
+    ],
+    "date": "July 28, 2021",
+    "expires": "August 1, 2021"
+  },
+  {
+    "name": [
+      "Triple Feature (Pasio) Poké Fair Scout",
+      "Lear [gridEX] Poké Fair Scout",
+      "Rachel [grid] Poké Fair Scout",
+      "Sawyer [grid] Poké Fair Scout"
+    ],
+    "date": "July 30, 2021",
+    "expires": "August 13, 2021"
+  },
+  {
+    "name": ["Solo Event: Lear Takes the Lead"],
+    "date": "July 30, 2021",
+    "expires": "August 13, 2021"
+  },
+  {
+    "name": ["Daily Scout"],
+    "date": "August 1, 2021",
+    "expires": "September 1, 2021"
+  },
+  {
+    "name": ["Gem Special + Present!"],
+    "date": "August 1, 2021",
+    "expires": "September 1, 2021"
+  },
+  {
+    "name": ["The Battle Villa Is Open!"],
+    "date": "August 2, 2021",
+    "expires": "August 16, 2021"
+  },
+  {
+    "name": ["Flying- and Psychic-Type Egg Event"],
+    "date": "August 3, 2021",
+    "expires": "August 17, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Tapu Bulu"],
+    "date": "August 5, 2021",
+    "expires": "August 19, 2021"
+  },
+  {
+    "name": ["Falkner [gridEX] Spotlight Scout"],
+    "date": "August 5, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Daily Type Rotation: Type Team-Up"],
+    "date": "August 5, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Sidney [gridEX] Spotlight Scout"],
+    "date": "August 9, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Sygna Suit Leon [gridEX] Poké Fair Scout"],
+    "date": "August 12, 2021",
+    "expires": "September 16, 2021"
+  },
+  {
+    "name": ["Legendary Event: Howling Shield of Eternity"],
+    "date": "August 12, 2021",
+    "expires": "September 16, 2021"
+  },
+  {
+    "name": ["Run-Up to Two Years Rally"],
+    "date": "August 12, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Run-Up to Two Years Gem Specials!"],
+    "date": "August 12, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Gloria [gridEX] Poké Fair Scout"],
+    "date": "August 16, 2021",
+    "expires": "September 2, 2021"
+  },
+  {
+    "name": ["5★-Select Special Scout ×11"],
+    "date": "August 17, 2021",
+    "expires": "September 2, 2021"
+  },
+  {
+    "name": ["10-Pair Scout (Max 100 Pairs)"],
+    "date": "August 19, 2021",
+    "expires": "October 7, 2021"
+  },
+  {
+    "name": ["Legendary Event: Give and Take"],
+    "date": "August 19, 2021",
+    "expires": "September 16, 2021"
+  },
+  {
+    "name": ["Legendary Event: Father or Foe"],
+    "date": "August 19, 2021",
+    "expires": "September 16, 2021"
+  },
+  {
+    "name": ["Legendary Event: New World Dilemma"],
+    "date": "August 19, 2021",
+    "expires": "September 16, 2021"
+  },
+  {
+    "name": ["Two-Year Run-Up Special Rally"],
+    "date": "August 19, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Blissful: Bonanza!"],
+    "date": "August 19, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Training Area Reward Boost Rally"],
+    "date": "August 19, 2021",
+    "expires": "August 28, 2021"
+  },
+  {
+    "name": ["Lysandre [gridEX] Poké Fair Scout"],
+    "date": "August 20, 2021",
+    "expires": "September 4, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Cresselia"],
+    "date": "August 20, 2021",
+    "expires": "September 4, 2021"
+  },
+  {
+    "name": ["Sabrina [gridEX] and Phoebe [gridEX] Spotlight Scout"],
+    "date": "August 23, 2021",
+    "expires": "September 4, 2021"
   }
 ]
