@@ -42,8 +42,9 @@ let rumor = {};
 let field_count = 0;
 
 for (let line of lines) {
-  // Skip empty lines
-  if (line.length < 1) continue;
+  // Skip empty or commented lines
+  if (line.length < 1 || line.startsWith("//") )
+    continue;
 
   switch (field_count) {
     case 3:
