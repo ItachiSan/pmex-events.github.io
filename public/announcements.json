@@ -64,5 +64,42 @@
   {
     "name": ["Daily Region Rotation Event"],
     "date": "June 10, 2021"
+  },
+  {
+    "name": [
+      "Two-Year Anniversary Rerun Event",
+      "Story Event: The Girl in Black and White"
+    ],
+    "date": "September 3, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Special Event: Evolution Material Mining!"],
+    "date": "September 5, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Story Event: Family Ties"],
+    "date": "September 7, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Story Event: The Eccentric Electrician"],
+    "date": "September 9, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Story Event: Dazzling Dizzying Battle Stage"],
+    "date": "September 11, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Story Event: The Ideal Formula"],
+    "date": "September 13, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Villain Story Arc: Kanto"],
+    "date": "September 15, 2021"
   }
 ]

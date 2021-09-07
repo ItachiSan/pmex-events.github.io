@@ -897,17 +897,15 @@
     "expires": "October 16, 2021"
   },
   {
-    "name": ["Lillie [gridEX] Master Fair Scout"],
+    "name": [
+      "Story Event: Hearts United",
+      "2nd Anniversary Lillie [gridEX] Master Fair Scout"
+    ],
     "date": "August 28, 2021",
     "expires": "September 30, 2021"
   },
   {
-    "name": ["Story Event: Hearts United"],
-    "date": "August 28, 2021",
-    "expires": "September 30, 2021"
-  },
-  {
-    "name": ["N [gridEX] Master Fair Scout"],
+    "name": ["2nd Anniversary N [gridEX] Master Fair Scout"],
     "date": "August 30, 2021",
     "expires": "September 30, 2021"
   },
@@ -917,7 +915,7 @@
     "expires": "September 16, 2021"
   },
   {
-    "name": ["Steven [gridEX] Master Fair Scout"],
+    "name": ["2nd Anniversary Steven [gridEX] Master Fair Scout"],
     "date": "September 1, 2021",
     "expires": "September 30, 2021"
   },
@@ -932,8 +930,26 @@
     "expires": "September 10, 2021"
   },
   {
-    "name": ["Two-Year Anniversary Rerun Event"],
+    "name": [
+      "Two-Year Anniversary Rerun Event",
+      "Story Event: The Girl in Black and White"
+    ],
     "date": "September 3, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Special Event: Evolution Material Mining!"],
+    "date": "September 5, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Story Event: Family Ties"],
+    "date": "September 7, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Story Event: The Eccentric Electrician"],
+    "date": "September 9, 2021",
     "expires": "September 17, 2021"
   },
   {
@@ -950,5 +966,15 @@
     "name": ["Legendary Arena: Cobalion"],
     "date": "September 10, 2021",
     "expires": "September 24, 2021"
+  },
+  {
+    "name": ["Story Event: Dazzling Dizzying Battle Stage"],
+    "date": "September 11, 2021",
+    "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Story Event: The Ideal Formula"],
+    "date": "September 13, 2021",
+    "expires": "September 17, 2021"
   }
 ]
