@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/announcements.json"
   },
   {
-    "revision": "83587b9026597ef277fa",
+    "revision": "f5000a2be8bc1580a0f6",
     "url": "/pmex-events/css/app.4351e8c3.css"
   },
   {
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/img/reddit.b66a3270.png"
   },
   {
-    "revision": "12148f4c057da73645b2994bda3e695b",
+    "revision": "9aebf593c57a21826efe9ae435e31a44",
     "url": "/pmex-events/index.html"
   },
   {
-    "revision": "83587b9026597ef277fa",
-    "url": "/pmex-events/js/app.df35afef.js"
+    "revision": "f5000a2be8bc1580a0f6",
+    "url": "/pmex-events/js/app.fa2849eb.js"
   },
   {
     "revision": "fa9bdf6745b68b40acca",

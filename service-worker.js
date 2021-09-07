@@ -14,16 +14,12 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pmex-events/precache-manifest.287476eb357a42756c6098eded6910a3.js"
+  "/pmex-events/precache-manifest.d9faf25bdd1296de15fd3baa14ba41ab.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pmex_events"});
 
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-});
+workbox.core.skipWaiting();
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
