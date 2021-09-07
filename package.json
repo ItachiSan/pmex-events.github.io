@@ -1,6 +1,6 @@
 {
   "name": "pmex_events",
-  "version": "0.21.7",
+  "version": "0.21.9",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
