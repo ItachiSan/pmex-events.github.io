@@ -19,7 +19,7 @@ export default {
     adjustedTitle() {
       return this.title
         .replace(/\[grid\]/g, '<img src="./img/grid.png"/>')
-        .replace(/\[ex\]/g, '<img src="./img/ex.png"/>')
+        .replace(/\[EX\]/g, '<img src="./img/ex.png"/>')
         .replace(
           /\[gridEX\]/g,
           '<img src="./img/grid.png"/><img src="./img/ex.png"/>'
