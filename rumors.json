@@ -976,5 +976,75 @@
     "name": ["Story Event: The Ideal Formula"],
     "date": "September 13, 2021",
     "expires": "September 17, 2021"
+  },
+  {
+    "name": ["Villain Event Prelude: Looming Shadow of Kanto"],
+    "date": "September 16, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["Legendary Event: Lurking Shadow", "Giovanni & Mewtwo [EX] Unlock"],
+    "date": "September 16, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "September 16, 2021",
+    "expires": "September 30, 2021"
+  },
+  {
+    "name": ["Red (OG) [gridEX] Poké Fair Scout"],
+    "date": "September 16, 2021",
+    "expires": "October 30, 2021"
+  },
+  {
+    "name": ["5★-Guaranteed Kanto Special Scout"],
+    "date": "September 18, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["Extreme Battle Event: Team Rocket Takedown"],
+    "date": "September 18, 2021",
+    "expires": "September 30, 2021"
+  },
+  {
+    "name": ["Blue (OG) [gridEX] Poké Fair Scout"],
+    "date": "September 18, 2021",
+    "expires": "October 30, 2021"
+  },
+  {
+    "name": ["Marnie [gridEX] Poké Fair Scout"],
+    "date": "September 21, 2021",
+    "expires": "October 5, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Tornadus"],
+    "date": "September 21, 2021",
+    "expires": "October 5, 2021"
+  },
+  {
+    "name": ["Triple Feature Spotlight Scout"],
+    "date": "September 23, 2021",
+    "expires": "October 5, 2021"
+  },
+  {
+    "name": ["Blissful: Bonanza!"],
+    "date": "September 23, 2021",
+    "expires": "September 30, 2021"
+  },
+  {
+    "name": ["Ghost-Type Gear Event"],
+    "date": "September 23, 2021",
+    "expires": "September 30, 2021"
+  },
+  {
+    "name": ["Special Rally"],
+    "date": "September 24, 2021",
+    "expires": "October 1, 2021"
+  },
+  {
+    "name": ["Training Area Reward Boost Rally"],
+    "date": "September 24, 2021",
+    "expires": "October 1, 2021"
   }
 ]
