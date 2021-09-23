@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/404.html"
   },
   {
-    "revision": "6b5336f09b9294f8e889d7112149960c",
+    "revision": "0d32b697146063d328723102c06f8205",
     "url": "/pmex-events/announcements.json"
   },
   {
