@@ -1,6 +1,6 @@
 {
   "name": "pmex_events",
-  "version": "2021.09.15",
+  "version": "2021.09.23",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
