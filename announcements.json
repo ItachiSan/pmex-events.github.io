@@ -103,7 +103,38 @@
     "date": "September 16, 2021"
   },
   {
-    "name": ["Villain Story Arc: Kanto"],
+    "name": [
+      "Villain Story Arc: Kanto",
+      "Villain Event Spreading Shadows",
+      "Giovanni & Mega Mewtwo Y [gridEX] unlock",
+      "Sygna Suit Misty Spotlight Scout",
+      "Sygna Suit Erika Spotlight Scout"
+    ],
     "date": "September 30, 2021"
+  },
+  {
+    "name": ["Fall event (expected: Mushroom Mania)"],
+    "date": "October 7, 2021"
+  },
+  {
+    "name": ["Daily Region Rotation: 5★-Guaranteed Scout Ticket"],
+    "date": "October 8, 2021"
+  },
+  {
+    "name": ["Halloween Event"],
+    "date": "October 14, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Uxie"],
+    "date": "October 22, 2021"
+  },
+  {
+    "name": ["Allister Spotlight Scout"],
+    "date": "October 22, 2021",
+    "expires": "November 8, 2021"
+  },
+  {
+    "name": ["New-style Story Event"],
+    "date": "TBA"
   }
 ]

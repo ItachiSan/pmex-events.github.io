@@ -983,7 +983,10 @@
     "expires": "October 16, 2021"
   },
   {
-    "name": ["Legendary Event: Lurking Shadow", "Giovanni & Mewtwo [EX] Unlock"],
+    "name": [
+      "Legendary Event: Lurking Shadow",
+      "Giovanni & Mewtwo [EX] Unlock"
+    ],
     "date": "September 16, 2021",
     "expires": "October 16, 2021"
   },
@@ -1046,5 +1049,130 @@
     "name": ["Training Area Reward Boost Rally"],
     "date": "September 24, 2021",
     "expires": "October 1, 2021"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "September 30, 2021",
+    "expires": "October 14, 2021"
+  },
+  {
+    "name": ["Sygna Suit Misty Spotlight Scout"],
+    "date": "September 30, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["The Story Continues! Villain Arc Update"],
+    "date": "September 30, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["Villain Event: Spreading Shadows"],
+    "date": "September 30, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["Gem Special + Present!"],
+    "date": "October 1, 2021",
+    "expires": "November 1, 2021"
+  },
+  {
+    "name": ["Sygna Suit Erika Spotlight Scout"],
+    "date": "October 1, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["Extreme Battle Event: Giovanni’s Malice"],
+    "date": "October 1, 2021",
+    "expires": "October 16, 2021"
+  },
+  {
+    "name": ["5★-Select Special Scout ×11"],
+    "date": "October 4, 2021",
+    "expires": "October 18, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Entei"],
+    "date": "October 4, 2021",
+    "expires": "October 18, 2021"
+  },
+  {
+    "name": ["Special Rally"],
+    "date": "October 7, 2021",
+    "expires": "October 14, 2021"
+  },
+  {
+    "name": ["Training Area Reward Boost Rally"],
+    "date": "October 7, 2021",
+    "expires": "October 14, 2021"
+  },
+  {
+    "name": ["Solo Event: Mushroom Mania"],
+    "date": "October 7, 2021",
+    "expires": "October 14, 2021"
+  },
+  {
+    "name": ["Champion Stadium: Alola Challenge"],
+    "date": "October 11, 2021",
+    "expires": "October 18, 2021"
+  },
+  {
+    "name": ["Morty Seasonal Tiered Scout"],
+    "date": "October 14, 2021",
+    "expires": "November 5, 2021"
+  },
+  {
+    "name": ["Story Event: Midnight Spookfest"],
+    "date": "October 14, 2021",
+    "expires": "November 5, 2021"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "October 14, 2021",
+    "expires": "October 29, 2021"
+  },
+  {
+    "name": ["Caitlin Seasonal Tiered Scout"],
+    "date": "October 16, 2021",
+    "expires": "November 5, 2021"
+  },
+  {
+    "name": ["Legendary Event: Pure Hearts and Rainbow Wings"],
+    "date": "October 16, 2021",
+    "expires": "November 22, 2021"
+  },
+  {
+    "name": ["The Battle Villa Is Open!"],
+    "date": "October 19, 2021",
+    "expires": "November 2, 2021"
+  },
+  {
+    "name": ["Acerola and Hilbert Seasonal Scout"],
+    "date": "October 20, 2021",
+    "expires": "November 4, 2021"
+  },
+  {
+    "name": ["Story Event: Fight or Fright"],
+    "date": "October 20, 2021",
+    "expires": "November 4, 2021"
+  },
+  {
+    "name": ["Legendary Arena: Uxie"],
+    "date": "October 22, 2021",
+    "expires": "November 5, 2021"
+  },
+  {
+    "name": ["Allister Spotlight Scout"],
+    "date": "October 22, 2021",
+    "expires": "November 8, 2021"
+  },
+  {
+    "name": ["Darach Spotlight Scout"],
+    "date": "October 25, 2021",
+    "expires": "November 8, 2021"
+  },
+  {
+    "name": ["Ghost- and Poison-Type Egg Event"],
+    "date": "October 25, 2021",
+    "expires": "November 8, 2021"
   }
 ]
