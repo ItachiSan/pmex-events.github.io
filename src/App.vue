@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import LinksBar from "@/components/LinksBar";
+import LinksBar from "@/components/LinksBar.vue";
 
 export default {
   components: {

@@ -13,8 +13,8 @@
 
 <script>
 import { load_rumors } from "@/helpers/load_data";
-import EventsBox from "@/components/EventsBox";
-import SpecialMessage from "@/components/SpecialMessage";
+import EventsBox from "@/components/EventsBox.vue";
+import SpecialMessage from "@/components/SpecialMessage.vue";
 
 export default {
   components: {

@@ -2,11 +2,11 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 // Import the views
-import Home from "@/views/Home";
-import Ongoing from "@/views/Ongoing";
-import Rumors from "@/views/Rumors";
-import Official from "@/views/Official";
-import Past from "@/views/Past";
+import Home from "@/views/Home.vue";
+import Ongoing from "@/views/Ongoing.vue";
+import Rumors from "@/views/Rumors.vue";
+import Official from "@/views/Official.vue";
+import Past from "@/views/Past.vue";
 
 Vue.use(VueRouter);
 

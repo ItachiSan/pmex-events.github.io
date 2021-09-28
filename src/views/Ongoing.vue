@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import EventsBox from "@/components/EventsBox";
+import EventsBox from "@/components/EventsBox.vue";
 import { load_rumors } from "../helpers/load_data";
-import SpecialMessage from "@/components/SpecialMessage";
+import SpecialMessage from "@/components/SpecialMessage.vue";
 
 export default {
   components: {

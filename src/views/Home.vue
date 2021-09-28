@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import EventsBox from "@/components/EventsBox";
+import EventsBox from "@/components/EventsBox.vue";
 
 export default {
   components: {

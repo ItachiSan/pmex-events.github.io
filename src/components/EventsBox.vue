@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import Event from "@/components/Event";
+import Event from "@/components/Event.vue";
 import EventCounter from "./EventCounter.vue";
 import { compare_dates } from "@/helpers/sorting";
 
