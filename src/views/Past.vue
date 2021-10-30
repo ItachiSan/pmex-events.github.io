@@ -1,6 +1,8 @@
 <template>
   <div id="past">
-    <special-message message="This page reports all the completed events." />
+    <special-message
+      message="This page reports all the completed events for the current and previous year quarter."
+    />
     <events-box
       :events="events"
       sort-by="end"

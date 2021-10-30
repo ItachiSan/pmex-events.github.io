@@ -135,6 +135,31 @@
   },
   {
     "name": ["New-style Story Event"],
+    "date": "October 28, 2021"
+  },
+  {
+    "name": ["Free Gems gifts"],
+    "date": "November 1, 2021"
+  },
+  {
+    "name": ["New Gear Event"],
+    "date": "November 8, 2021"
+  },
+
+  {
+    "name": ["Pokémon Masters Day"],
+    "date": "November 25, 2021"
+  },
+  {
+    "name": [
+      "Legendary Arena: Playable anytime!",
+      "Battle Villa: Skip between stages!",
+      "Champion Arena Master Mode: Points Adjustments"
+    ],
+    "date": "November 29, 2021"
+  },
+  {
+    "name": ["Champion Arena Master Mode: More difficult content!"],
     "date": "TBA"
   }
 ]
