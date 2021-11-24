@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pmex-events/precache-manifest.bf075a8ed8ad166607e87e2d81768c84.js"
+  "/pmex-events/precache-manifest.74ad2577f7527f0dddd95eb8f466a503.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "pmex_events"});

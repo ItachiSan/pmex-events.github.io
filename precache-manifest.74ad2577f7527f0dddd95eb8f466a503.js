@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/404.html"
   },
   {
-    "revision": "0b6593c6530548621ec01da30a6adbb8",
+    "revision": "b8b1a4a49d99d1fa9c7df14ca068e704",
     "url": "/pmex-events/announcements.json"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/archive/rumors_2021-Q2.json"
   },
   {
-    "revision": "3c2f406dcdd3b0eca2fe",
+    "revision": "d35fce639055a8c9b196",
     "url": "/pmex-events/css/app.4351e8c3.css"
   },
   {
@@ -40,16 +40,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/img/reddit.b66a3270.png"
   },
   {
-    "revision": "b7fe2927d2f5ee4a1a7ed7b1996a6d2f",
+    "revision": "8af43638a1e0c5713a596e75e8fa5822",
     "url": "/pmex-events/index.html"
   },
   {
-    "revision": "3c2f406dcdd3b0eca2fe",
-    "url": "/pmex-events/js/app.501ee784.js"
+    "revision": "d35fce639055a8c9b196",
+    "url": "/pmex-events/js/app.922a126b.js"
   },
   {
-    "revision": "fa9bdf6745b68b40acca",
-    "url": "/pmex-events/js/chunk-vendors.22c101c1.js"
+    "revision": "b706745e35c1d2bc6be1",
+    "url": "/pmex-events/js/chunk-vendors.9151b1dd.js"
   },
   {
     "revision": "c4986f076097ba47a52aad35ae2b0be9",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmex-events/robots.txt"
   },
   {
-    "revision": "5c0520f0f2fb51e36697ecedc059006b",
+    "revision": "a8e42a9e809d329ad0ecbcc76cf7f418",
     "url": "/pmex-events/rumors.json"
   }
 ]);
