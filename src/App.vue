@@ -11,8 +11,8 @@ import LinksBar from "@/components/LinksBar.vue";
 
 export default {
   components: {
-    LinksBar
-  }
+    LinksBar,
+  },
 };
 </script>
 

@@ -23,7 +23,7 @@ export default {
     titles: Array[String],
     begin: Date,
     end: Date,
-    show: String
+    show: String,
   },
   data() {
     return { days: "...", hours: "...", minutes: "...", seconds: "..." };
@@ -41,7 +41,7 @@ export default {
     },
     // TODO: Try to use `require()`
     adjustedTitles() {
-      return this.titles.map(title =>
+      return this.titles.map((title) =>
         title
           .replace(/\[grid\]/g, '<img src="./img/grid.png"/>')
           .replace(/\[EX\]/g, '<img src="./img/ex.png"/>')
@@ -50,7 +50,7 @@ export default {
             '<img src="./img/grid.png"/><img src="./img/ex.png"/>'
           )
       );
-    }
+    },
   },
   methods: {
     countdown() {
@@ -77,7 +77,7 @@ export default {
       difference_in_seconds = difference_in_seconds - this.minutes * 60;
       // Extract seconds
       this.seconds = Math.floor(difference_in_seconds);
-    }
+    },
   },
   created() {
     this.countdown();
@@ -87,7 +87,7 @@ export default {
   },
   destroyed() {
     clearInterval(this.countdown);
-  }
+  },
 };
 </script>
 

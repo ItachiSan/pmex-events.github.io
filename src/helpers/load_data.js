@@ -2,14 +2,14 @@ import { publicPath } from "../../vue.config";
 
 export function load_rumors() {
   return fetch(publicPath + "rumors.json")
-    .then(response => response.json())
-    .then(events => flatten_events(events));
+    .then((response) => response.json())
+    .then((events) => flatten_events(events));
 }
 
 export function load_announcements() {
   return fetch(publicPath + "announcements.json")
-    .then(response => response.json())
-    .then(events => flatten_events(events));
+    .then((response) => response.json())
+    .then((events) => flatten_events(events));
 }
 
 export function flatten_events(events) {
@@ -24,7 +24,7 @@ export function flatten_events(events) {
             : new Date(an_event.date + " 06:00:00 UTC"),
         expires: an_event.expires
           ? new Date(an_event.expires + " 06:00:00 UTC")
-          : null
+          : null,
       });
     }
   }

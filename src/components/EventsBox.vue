@@ -12,7 +12,7 @@
     <hr v-if="specialEvent" />
     <br v-if="specialEvent" />
     <!-- Normal events -->
-    <event
+    <event-box
       v-for="event in otherEvents"
       :key="event.name"
       :title="event.title"
@@ -20,7 +20,7 @@
       :expires="event.expires"
       :date-to-use="sortBy"
     >
-    </event>
+    </event-box>
     <!-- Fallback box -->
     <div v-if="sortedEvents.length === 0">
       <p v-html="emptyMessage" />
@@ -32,12 +32,12 @@
 </template>
 
 <script>
-import Event from "@/components/Event.vue";
+import EventBox from "@/components/EventBox.vue";
 import EventCounter from "./EventCounter.vue";
 import { compare_dates } from "@/helpers/sorting";
 
 export default {
-  components: { Event, EventCounter },
+  components: { EventBox, EventCounter },
   name: "EventsBox",
   props: {
     id: String,
@@ -45,7 +45,7 @@ export default {
     sortBy: String,
     skipSort: Boolean,
     skipSpecial: Boolean,
-    emptyMessage: String
+    emptyMessage: String,
   },
   computed: {
     sortedEvents() {
@@ -84,8 +84,8 @@ export default {
     otherEvents() {
       if (!this.specialEvent) return this.sortedEvents;
       return this.sortedEvents.slice(this.specialEvent.titles.length);
-    }
-  }
+    },
+  },
 };
 </script>
 

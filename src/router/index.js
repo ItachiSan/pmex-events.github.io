@@ -2,11 +2,11 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 // Import the views
-import Home from "@/views/Home.vue";
-import Ongoing from "@/views/Ongoing.vue";
-import Rumors from "@/views/Rumors.vue";
-import Official from "@/views/Official.vue";
-import Past from "@/views/Past.vue";
+import HomeView from "@/views/HomeView.vue";
+import OngoingEvents from "@/views/OngoingEvents.vue";
+import RumoredEvents from "@/views/RumoredEvents.vue";
+import OfficialEvents from "@/views/OfficialEvents.vue";
+import PastEvents from "@/views/PastEvents.vue";
 
 Vue.use(VueRouter);
 
@@ -14,7 +14,7 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: HomeView,
   },
   {
     path: "/ongoing",
@@ -23,23 +23,23 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     // component: () => import("")
-    component: Ongoing
+    component: OngoingEvents,
   },
   {
     path: "/rumors",
     name: "Rumors",
-    component: Rumors
+    component: RumoredEvents,
   },
   {
     path: "/past",
     name: "Past Events",
-    component: Past
+    component: PastEvents,
   },
   {
     path: "/official",
     name: "Official Announcements",
-    component: Official
-  }
+    component: OfficialEvents,
+  },
 ];
 
 import { publicPath } from "../../vue.config";
@@ -47,7 +47,7 @@ import { publicPath } from "../../vue.config";
 const router = new VueRouter({
   mode: "history",
   base: publicPath,
-  routes
+  routes,
 });
 
 export default router;

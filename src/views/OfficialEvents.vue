@@ -17,7 +17,7 @@ import SpecialMessage from "@/components/SpecialMessage.vue";
 export default {
   components: {
     EventsBox,
-    SpecialMessage
+    SpecialMessage,
   },
   data() {
     return { events: [] };
@@ -25,12 +25,13 @@ export default {
   mounted() {
     let now = new Date(Date.now());
     load_announcements()
-      .then(announcements =>
+      .then((announcements) =>
         announcements.filter(
-          announcement => announcement.date > now || announcement.date === null
+          (announcement) =>
+            announcement.date > now || announcement.date === null
         )
       )
-      .then(announcements => (this.events = announcements));
-  }
+      .then((announcements) => (this.events = announcements));
+  },
 };
 </script>

@@ -1,11 +1,11 @@
 module.exports = {
   publicPath: process.env.NODE_ENV === "production" ? "/pmex-events/" : "/",
   configureWebpack: {
-    devtool: "source-map"
+    devtool: "source-map",
   },
 
-  chainWebpack: config => {
-    config.plugin("html").tap(args => {
+  chainWebpack: (config) => {
+    config.plugin("html").tap((args) => {
       args[0].title = "Pokémon Masters Events";
       return args;
     });
@@ -16,11 +16,11 @@ module.exports = {
     themeColor: "#f97f2c",
     msTileColor: "#363434",
     manifestOptions: {
-      background_color: "#363434"
+      background_color: "#363434",
     },
     // Thanks: https://stackoverflow.com/a/54377386
     workboxOptions: {
-      skipWaiting: true
-    }
-  }
+      skipWaiting: true,
+    },
+  },
 };

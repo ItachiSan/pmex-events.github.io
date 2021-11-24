@@ -17,7 +17,7 @@ import SpecialMessage from "@/components/SpecialMessage.vue";
 export default {
   components: {
     EventsBox,
-    SpecialMessage
+    SpecialMessage,
   },
   data() {
     return { events: [] };
@@ -26,14 +26,14 @@ export default {
     load_rumors()
       .then(
         // Keep only the ongoing rumors
-        rumors => {
+        (rumors) => {
           let now = new Date(Date.now());
           return rumors.filter(
-            event => event.date < now && event.expires > now
+            (event) => event.date < now && event.expires > now
           );
         }
       )
-      .then(rumors => (this.events = rumors));
-  }
+      .then((rumors) => (this.events = rumors));
+  },
 };
 </script>

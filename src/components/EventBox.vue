@@ -12,7 +12,7 @@ export default {
     title: String,
     date: Date,
     expires: Date,
-    dateToUse: String
+    dateToUse: String,
   },
   computed: {
     // TODO: Try to use `require()`
@@ -45,8 +45,8 @@ export default {
       } else {
         return Error("Invalid type: please use only 'begin' or 'end'");
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -13,7 +13,7 @@ import EventsBox from "@/components/EventsBox.vue";
 
 export default {
   components: {
-    EventsBox
+    EventsBox,
   },
   data() {
     return {
@@ -23,9 +23,9 @@ export default {
         <br><br>
         You can also check the source code of this project
         <a href="https://github.com/ItachiSan/pmex-events">here</a>.
-      `
+      `,
     };
-  }
+  },
 };
 </script>
 

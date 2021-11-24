@@ -145,10 +145,16 @@
     "name": ["New Gear Event"],
     "date": "November 8, 2021"
   },
-
   {
     "name": ["Pokémon Masters Day"],
     "date": "November 25, 2021"
+  },
+  {
+    "name": [
+      "Grimsley (Kimono) [gridEX] Spotlight Scout",
+      "Villain Story Arc: Paulo Interlude"
+    ],
+    "date": "November 26, 2021"
   },
   {
     "name": [
@@ -157,6 +163,17 @@
       "Champion Arena Master Mode: Points Adjustments"
     ],
     "date": "November 29, 2021"
+  },
+  {
+    "name": ["XMas Sync pairs coming!"],
+    "date": "December 16, 2021"
+  },
+  {
+    "name": [
+      "Leggendary Gauntlet: Leggendary Arena Boss Rush!",
+      "Villain Story Arc: New Arc coming!"
+    ],
+    "date": "17 January, 2022"
   },
   {
     "name": ["Champion Arena Master Mode: More difficult content!"],

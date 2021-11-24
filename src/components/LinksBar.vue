@@ -53,10 +53,10 @@ export default {
           window.open("https://twitter.com/pokemas_game");
           break;
         default:
-          console.log(`Invalid redirection key: ${keyword}!`);
+          alert(`Invalid redirection key: ${keyword}!`);
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

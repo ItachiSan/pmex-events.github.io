@@ -28,8 +28,28 @@ let lines = rumor_data.split(os.EOL);
 let new_rumors = [];
 
 // Helper function for parsing the dates
-function formatDate(string) {
-  let date = new Date(string);
+function formatDate(input_string) {
+  // Handle the new Discord output, if needed
+  if (input_string.includes(': '))
+    input_string = input_string.split(': ')[1].trim();
+
+  // Handle accepted undefined dates
+  if (input_string === 'TBA')
+    return input_string
+
+  /*
+  Handle the new format.
+  From:
+  YEAR-MONTH-DAY TIME 'UTC'
+  it became
+  DAY-MONTH-YEAR TIME
+  Revert it to the original as that is super good as input for Date()
+  */
+  let [day, hour] = input_string.split(' ');
+  day = day.split('-').reverse().join('-');
+  hour = hour + ' UTC';
+  let date = new Date(`${day} ${hour}`);
+
   return date.toLocaleDateString("en-US", {
     month: "long",
     day: "numeric",
@@ -43,7 +63,7 @@ let field_count = 0;
 
 for (let line of lines) {
   // Skip empty or commented lines
-  if (line.length < 1 || line.startsWith("//") )
+  if (line.trim().length < 1 || line.startsWith("//") )
     continue;
 
   switch (field_count) {
@@ -57,13 +77,17 @@ for (let line of lines) {
     // Don't break, so we can fall in the next case
     case 0:
       rumor["name"] = [line];
+      break
     case 1:
       rumor["date"] = formatDate(line);
+      break
     case 2:
       rumor["expires"] = formatDate(line);
+      break
     default:
-      field_count += 1;
+      throw new Error(`Unexpected case with count ${field_count} and line ${line}`);
   }
+  field_count += 1;
   // console.log(line);
 }
 
