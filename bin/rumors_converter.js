@@ -27,15 +27,16 @@ let lines = rumor_data.split(os.EOL);
 // Prepare the recipient structure
 let new_rumors = [];
 
+// Allow toggling format parsing between the easy and the odd format
+const easy_format = true;
 // Helper function for parsing the dates
 function formatDate(input_string) {
   // Handle the new Discord output, if needed
-  if (input_string.includes(': '))
-    input_string = input_string.split(': ')[1].trim();
+  if (input_string.includes(": "))
+    input_string = input_string.split(": ")[1].trim();
 
   // Handle accepted undefined dates
-  if (input_string === 'TBA')
-    return input_string
+  if (input_string === "TBA") return input_string;
 
   /*
   Handle the new format.
@@ -45,10 +46,14 @@ function formatDate(input_string) {
   DAY-MONTH-YEAR TIME
   Revert it to the original as that is super good as input for Date()
   */
-  let [day, hour] = input_string.split(' ');
-  day = day.split('-').reverse().join('-');
-  hour = hour + ' UTC';
-  let date = new Date(`${day} ${hour}`);
+  let date;
+  if (easy_format) date = new Date(input_string);
+  else {
+    let [day, hour] = input_string.split(" ");
+    day = day.split("-").reverse().join("-");
+    hour = hour + " UTC";
+    date = new Date(`${day} ${hour}`);
+  }
 
   return date.toLocaleDateString("en-US", {
     month: "long",
@@ -63,8 +68,7 @@ let field_count = 0;
 
 for (let line of lines) {
   // Skip empty or commented lines
-  if (line.trim().length < 1 || line.startsWith("//") )
-    continue;
+  if (line.trim().length < 1 || line.startsWith("//")) continue;
 
   switch (field_count) {
     case 3:
@@ -77,15 +81,17 @@ for (let line of lines) {
     // Don't break, so we can fall in the next case
     case 0:
       rumor["name"] = [line];
-      break
+      break;
     case 1:
       rumor["date"] = formatDate(line);
-      break
+      break;
     case 2:
       rumor["expires"] = formatDate(line);
-      break
+      break;
     default:
-      throw new Error(`Unexpected case with count ${field_count} and line ${line}`);
+      throw new Error(
+        `Unexpected case with count ${field_count} and line ${line}`
+      );
   }
   field_count += 1;
   // console.log(line);
