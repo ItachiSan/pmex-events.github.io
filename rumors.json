@@ -793,6 +793,220 @@
     "expires": "December 17, 2021"
   },
   {
+    "name": ["Master Fair Gem Special!"],
+    "date": "December 27, 2021",
+    "expires": "January 13, 2022"
+  },
+  {
+    "name": ["Villain Event Prelude: Galactic Nightmare"],
+    "date": "December 27, 2021",
+    "expires": "January 13, 2022"
+  },
+  {
+    "name": ["Sygna Suit Cynthia [gridEX] Master Fair Scout"],
+    "date": "December 27, 2021",
+    "expires": "February 28, 2022"
+  },
+  {
+    "name": ["Daily Scout"],
+    "date": "January 1, 2022",
+    "expires": "February 1, 2022"
+  },
+  {
+    "name": ["New Year’s Gem Present"],
+    "date": "January 1, 2022",
+    "expires": "January 8, 2022"
+  },
+  {
+    "name": ["Daily Battle: New Year’s Challenge"],
+    "date": "January 1, 2022",
+    "expires": "January 8, 2022"
+  },
+  {
+    "name": ["New-Year Sabrina [gridEX] Seasonal Tiered Scout"],
+    "date": "January 1, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["New-Year Volkner [gridEX] Seasonal Tiered Scout"],
+    "date": "January 1, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["5★-Select Poké Fair Scout ×25 (A)"],
+    "date": "January 1, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["5★-Select Poké Fair Scout ×25 (B)"],
+    "date": "January 1, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["5★-Select Special Scout ×15"],
+    "date": "January 1, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["Happy New Year Gem Special!"],
+    "date": "January 1, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["Story Event: New Year and New Friends"],
+    "date": "January 1, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["Legendary Adventures - Ghetsis & Kyurem: Father or Foe"],
+    "date": "January 4, 2022",
+    "expires": "January 11, 2022"
+  },
+  {
+    "name": ["5★-Guaranteed Seasonal Scout"],
+    "date": "January 4, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["New-Year Lillie [gridEX] and Lance [gridEX] Seasonal Scout"],
+    "date": "January 4, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["Story Event: Season’s Greetings"],
+    "date": "January 4, 2022",
+    "expires": "January 18, 2022"
+  },
+  {
+    "name": ["Dragon-Type Gear Event"],
+    "date": "January 6, 2022",
+    "expires": "January 13, 2022"
+  },
+  {
+    "name": ["The Battle Villa Is Open!"],
+    "date": "January 6, 2022",
+    "expires": "January 20, 2022"
+  },
+  {
+    "name": ["Special Rally"],
+    "date": "January 7, 2022",
+    "expires": "January 14, 2022"
+  },
+  {
+    "name": ["Training Area Reward Boost Rally"],
+    "date": "January 7, 2022",
+    "expires": "January 14, 2022"
+  },
+  {
+    "name": ["Legendary Arena: Uxie"],
+    "date": "January 7, 2022",
+    "expires": "January 21, 2022"
+  },
+  {
+    "name": ["New chapter added to the villain arc!"],
+    "date": "January 13, 2022",
+    "expires": "January 20, 2022"
+  },
+  {
+    "name": ["Lucas & Palkia [gridEX] Poké Fair Scout"],
+    "date": "January 13, 2022",
+    "expires": "February 28, 2022"
+  },
+  {
+    "name": ["Villain Event: Dreams of the Void"],
+    "date": "January 13, 2022",
+    "expires": "February 28, 2022"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "January 13, 2022",
+    "expires": "January 31, 2022"
+  },
+  {
+    "name": [
+      "Legendary Adventures - Professor Sycamore & Xerneas: Give and Take"
+    ],
+    "date": "January 14, 2022",
+    "expires": "January 21, 2022"
+  },
+  {
+    "name": ["5★-Guaranteed Sinnoh Special Scout"],
+    "date": "January 14, 2022",
+    "expires": "February 28, 2022"
+  },
+  {
+    "name": ["5★-Select Special Scout ×11"],
+    "date": "January 15, 2022",
+    "expires": "January 31, 2022"
+  },
+  {
+    "name": ["Extreme Battle Event: Team Galactic Takedown"],
+    "date": "January 15, 2022",
+    "expires": "January 31, 2022"
+  },
+  {
+    "name": ["Story Event: Team Skull Crash Course"],
+    "date": "January 17, 2022",
+    "expires": "February 3, 2022"
+  },
+  {
+    "name": ["Bug-, Water-, and Fire-Type Poké Fair Scout"],
+    "date": "January 20, 2022",
+    "expires": "February 3, 2022"
+  },
+  {
+    "name": ["Water, Fire, and Bug 5★-Select Scout"],
+    "date": "January 20, 2022",
+    "expires": "February 3, 2022"
+  },
+  {
+    "name": ["Epic Battle Event: Legendary Gauntlet"],
+    "date": "January 20, 2022",
+    "expires": "February 3, 2022"
+  },
+  {
+    "name": ["Special Rally"],
+    "date": "January 20, 2022",
+    "expires": "January 31, 2022"
+  },
+  {
+    "name": ["Training Area Reward Boost Rally"],
+    "date": "January 20, 2022",
+    "expires": "January 31, 2022"
+  },
+  {
+    "name": ["Serena, Guzma, and Bianca Spotlight Scout"],
+    "date": "January 24, 2022",
+    "expires": "February 7, 2022"
+  },
+  {
+    "name": ["Solo Event: A Pasio Spectacle"],
+    "date": "January 24, 2022",
+    "expires": "February 7, 2022"
+  },
+  {
+    "name": ["Fire- and Steel-Type Egg Event"],
+    "date": "January 24, 2022",
+    "expires": "February 7, 2022"
+  },
+  {
+    "name": [
+      "Legendary Adventures - Main Character & Solgaleo: The Beast That Devours the Sun"
+    ],
+    "date": "January 24, 2022",
+    "expires": "January 31, 2022"
+  },
+  {
+    "name": ["Special Monthly Event: Pokémon Masters Day"],
+    "date": "January 25, 2022",
+    "expires": "January 26, 2022"
+  },
+  {
+    "name": ["Hop & Zamazenta: Howling Shield of Eternity"],
+    "date": "February 4, 2022",
+    "expires": "February 11, 2022"
+  },
+  {
     "name": ["Candice [grid] Grid addition"],
     "date": "TBA"
   },
