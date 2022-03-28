@@ -18,7 +18,7 @@ export default {
   color: white;
   display: inline-block;
   padding: 10px;
-  width: 90%;
+  width: 96%;
 }
 
 @media screen and (min-width: 1200px) {

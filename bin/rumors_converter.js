@@ -79,6 +79,7 @@ for (let line of lines) {
       rumor = {};
       field_count = 0;
     // Don't break, so we can fall in the next case
+    // eslint-disable-next-line no-fallthrough
     case 0:
       rumor["name"] = [line];
       break;
@@ -104,6 +105,15 @@ if ("name" in rumor && "date" in rumor && "expires" in rumor) {
 }
 
 console.log(`New ${new_rumors.length} rumors`);
+
+// First sort the rumors
+new_rumors.sort(function (event1, event2) {
+  if (event1.date === event2.date) {
+    return event1.expires - event2.expires;
+  } else {
+    return event1.date - event2.date;
+  }
+});
 
 // Now dump to file
 let new_rumors_content = JSON.stringify(new_rumors, null, 2);
