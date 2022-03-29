@@ -1,5 +1,4 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 // Import the views
 import HomeView from "@/views/HomeView.vue";
@@ -7,8 +6,6 @@ import OngoingEvents from "@/views/OngoingEvents.vue";
 import RumoredEvents from "@/views/RumoredEvents.vue";
 import OfficialEvents from "@/views/OfficialEvents.vue";
 import PastEvents from "@/views/PastEvents.vue";
-
-Vue.use(VueRouter);
 
 const routes = [
   {
@@ -44,9 +41,8 @@ const routes = [
 
 import { publicPath } from "../../vue.config";
 
-const router = new VueRouter({
-  mode: "history",
-  base: publicPath,
+const router = createRouter({
+  history: createWebHistory(publicPath),
   routes,
 });
 

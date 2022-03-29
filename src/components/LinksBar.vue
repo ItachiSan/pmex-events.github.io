@@ -1,13 +1,31 @@
 <template>
   <header>
     <ul>
-      <router-link tag="li" to="/"><b>Home</b></router-link>
-      <router-link tag="li" to="/ongoing"><b>Ongoing Events</b></router-link>
-      <router-link tag="li" to="/rumors"><b>Incoming Events</b></router-link>
-      <router-link tag="li" to="/official">
-        <b>Official Announcements</b>
+      <router-link to="/" custom v-slot="{ navigate, isActive }">
+        <li @click="navigate" :active="isActive">
+          <b>Home</b>
+        </li>
       </router-link>
-      <router-link tag="li" to="/past"><b>Past Events</b></router-link>
+      <router-link to="/ongoing" custom v-slot="{ navigate, isActive }">
+        <li @click="navigate" :active="isActive">
+          <b>Ongoing Events</b>
+        </li>
+      </router-link>
+      <router-link to="/rumors" custom v-slot="{ navigate, isActive }">
+        <li @click="navigate" :active="isActive">
+          <b>Incoming Events</b>
+        </li>
+      </router-link>
+      <router-link to="/official" custom v-slot="{ navigate, isActive }">
+        <li @click="navigate" :active="isActive">
+          <b>Official Announcements</b>
+        </li>
+      </router-link>
+      <router-link to="/past" custom v-slot="{ navigate, isActive }">
+        <li @click="navigate" :active="isActive">
+          <b>Past Events</b>
+        </li>
+      </router-link>
       <li @click="redirect('discord')">
         <b>Discord</b>
         <!-- Icons cannot be handled from Webpack, it seems... -->
@@ -100,8 +118,7 @@ header li:hover {
   cursor: pointer;
 }
 
-.active,
-.router-link-exact-active {
+li[active="true"] {
   background-color: white;
   color: #f97f2c;
 }
