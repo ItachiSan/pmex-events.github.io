@@ -62,6 +62,10 @@ function formatDate(input_string) {
   });
 }
 
+function formatEventTitle(title) {
+  return title.replace("×", "x").replace("’", "'");
+}
+
 // Parse stuff
 let rumor = {};
 let field_count = 0;
@@ -81,7 +85,7 @@ for (let line of lines) {
     // Don't break, so we can fall in the next case
     // eslint-disable-next-line no-fallthrough
     case 0:
-      rumor["name"] = [line];
+      rumor["name"] = [formatEventTitle(line)];
       break;
     case 1:
       rumor["date"] = formatDate(line);
