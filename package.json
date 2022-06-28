@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "generate": "node bin/rumors_converter.js"
+    "generate": "node bin/rumors_converter.js",
+    "ui": "vue ui"
   },
   "dependencies": {
     "core-js": "^3.22.3",
@@ -15,16 +16,16 @@
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^5.0.4",
-    "@vue/cli-plugin-eslint": "^5.0.4",
-    "@vue/cli-plugin-pwa": "^5.0.4",
-    "@vue/cli-plugin-router": "^5.0.4",
-    "@vue/cli-service": "^5.0.4",
     "@babel/eslint-parser": "^7.17.0",
+    "@vue/cli-plugin-babel": "~5.0.6",
+    "@vue/cli-plugin-eslint": "~5.0.6",
+    "@vue/cli-plugin-pwa": "~5.0.6",
+    "@vue/cli-plugin-router": "~5.0.6",
+    "@vue/cli-service": "~5.0.6",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.7.1",
+    "eslint-plugin-vue": "^9.1.1",
     "prettier": "^2.6.2",
     "serve": "^13.0.2",
     "vue-pwa-asset-generator": "^1.7.1",
