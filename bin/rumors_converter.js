@@ -63,7 +63,7 @@ function formatDate(input_string) {
 }
 
 function formatEventTitle(title) {
-  return title.replace("×", "x").replace("’", "'");
+  return title.replace("×", "x").replace("’", "'").replace(" : ", ": ");
 }
 
 // Parse stuff
