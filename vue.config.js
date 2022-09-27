@@ -1,14 +1,6 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/pmex-events/" : "/",
   configureWebpack: {
     devtool: "source-map",
-  },
-
-  chainWebpack: (config) => {
-    config.plugin("html").tap((args) => {
-      args[0].title = "Pokémon Masters Events";
-      return args;
-    });
   },
 
   pwa: {

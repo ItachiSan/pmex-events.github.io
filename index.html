@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>/img/icons/favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" href="/img/icons/favicon.ico">
+    <title>Pokémon Masters Events</title>
     <!-- Imported from the old page-->
     <meta name="description" content="Pokemon Masters Events' Countdown by Giovanni Santini, based on antocs#0900 work">
     <!-- Original source: https://upload.wikimedia.org/wikipedia/en/0/03/Pokemonmaster.png -->
@@ -26,7 +26,7 @@
       // the single page app to route accordingly.
       (function(l) {
         if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
+          var decoded = l.search.slice(1).split('&').map(function(s) {
             return s.replace(/~and~/g, '&')
           }).join('?');
           window.history.replaceState(null, null,
@@ -35,10 +35,12 @@
         }
       }(window.location))
     </script>
+    <!-- Manually add the script, required by Vite -->
+    <script type="module" src="/src/main.js"></script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but "Pokémon Masters Events" doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->

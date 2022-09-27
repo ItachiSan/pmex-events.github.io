@@ -3,33 +3,25 @@
   "version": "2022.09.27",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "generate": "node bin/rumors_converter.js",
-    "ui": "vue ui",
-    "vue": "vue"
+    "dev": "vite",
+    "serve": "vite preview",
+    "build": "vite build",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "generate": "node bin/rumors_converter.js"
   },
   "dependencies": {
-    "core-js": "^3.22.3",
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.17.0",
-    "@vue/cli-plugin-babel": "~5.0.8",
-    "@vue/cli-plugin-eslint": "~5.0.8",
-    "@vue/cli-plugin-pwa": "~5.0.8",
-    "@vue/cli-plugin-router": "~5.0.8",
-    "@vue/cli-service": "~5.0.8",
-    "eslint": "^8.14.0",
+    "@vitejs/plugin-vue": "^1.6.1",
+    "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^9.1.1",
     "prettier": "^2.6.2",
-    "serve": "^14.0.1",
-    "vue-pwa-asset-generator": "^1.7.1",
-    "vue-template-compiler": "^2.6.14"
+    "vite": "^2.5.4",
+    "vue-pwa-asset-generator": "^1.7.1"
   }
 }
