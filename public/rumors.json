@@ -868,5 +868,140 @@
     "name": ["Special Monthly Event: Pokémon Masters Day"],
     "date": "September 25, 2022",
     "expires": "September 26, 2022"
+  },
+  {
+    "name": ["Sygna Suit Wally [gridEX] Poké Fair Scout"],
+    "date": "September 28, 2022",
+    "expires": "October 31, 2022"
+  },
+  {
+    "name": ["Story Event: Melancholy Wally"],
+    "date": "September 28, 2022",
+    "expires": "October 17, 2022"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "September 28, 2022",
+    "expires": "October 19, 2022"
+  },
+  {
+    "name": ["Daily Battle: Challenge from Wally"],
+    "date": "September 30, 2022",
+    "expires": "October 17, 2022"
+  },
+  {
+    "name": ["Vol. 2: Monthly Poké Fair Scout"],
+    "date": "October 1, 2022",
+    "expires": "November 1, 2022"
+  },
+  {
+    "name": ["Daily Scout"],
+    "date": "October 1, 2022",
+    "expires": "November 1, 2022"
+  },
+  {
+    "name": ["Gordie [gridEX] Spotlight Scout"],
+    "date": "October 3, 2022",
+    "expires": "October 24, 2022"
+  },
+  {
+    "name": ["Solo Event: Severely Strained Relations"],
+    "date": "October 3, 2022",
+    "expires": "October 24, 2022"
+  },
+  {
+    "name": ["Melony [gridEX] Spotlight Scout"],
+    "date": "October 5, 2022",
+    "expires": "October 24, 2022"
+  },
+  {
+    "name": ["Victor [gridEX] Poké Fair Scout"],
+    "date": "October 7, 2022",
+    "expires": "October 24, 2022"
+  },
+  {
+    "name": ["Rock- and Ice-Type Egg Event"],
+    "date": "October 7, 2022",
+    "expires": "October 21, 2022"
+  },
+  {
+    "name": ["Legendary Arena: Latias"],
+    "date": "October 7, 2022",
+    "expires": "October 21, 2022"
+  },
+  {
+    "name": ["Villain Event: Dreams of the Void"],
+    "date": "October 10, 2022",
+    "expires": "October 31, 2022"
+  },
+  {
+    "name": ["New content added to the Paulo Interlude!"],
+    "date": "October 10, 2022",
+    "expires": "October 17, 2022"
+  },
+  {
+    "name": ["Villain Event: Galactic Awakening"],
+    "date": "October 13, 2022",
+    "expires": "October 31, 2022"
+  },
+  {
+    "name": ["Iris Seasonal [gridEX] Tiered Scout"],
+    "date": "October 17, 2022",
+    "expires": "November 3, 2022"
+  },
+  {
+    "name": ["Story Event: Otherworldly Encounter"],
+    "date": "October 17, 2022",
+    "expires": "November 3, 2022"
+  },
+  {
+    "name": ["Event Gem Special!"],
+    "date": "October 17, 2022",
+    "expires": "November 3, 2022"
+  },
+  {
+    "name": ["Allister Seasonal [gridEX] Tiered Scout"],
+    "date": "October 19, 2022",
+    "expires": "November 3, 2022"
+  },
+  {
+    "name": ["The Battle Villa Is Open!"],
+    "date": "October 20, 2022",
+    "expires": "November 3, 2022"
+  },
+  {
+    "name": ["Seasonal Tiered Scout"],
+    "date": "October 24, 2022",
+    "expires": "November 10, 2022"
+  },
+  {
+    "name": ["Story Event: Midnight Battle Ball"],
+    "date": "October 24, 2022",
+    "expires": "November 10, 2022"
+  },
+  {
+    "name": ["Special Rally"],
+    "date": "October 25, 2022",
+    "expires": "November 1, 2022"
+  },
+  {
+    "name": ["Training Area Reward Boost Rally"],
+    "date": "October 25, 2022",
+    "expires": "November 1, 2022"
+  },
+  {
+    "name": ["Daily Battle: Blissful Bonanza!"],
+    "date": "October 25, 2022",
+    "expires": "November 1, 2022"
+  },
+  {
+    "name": ["Special Monthly Event: Pokémon Masters Day"],
+    "date": "October 25, 2022",
+    "expires": "October 26, 2022"
+  },
+  {
+    "name": ["Legendary Arena: Uxie"],
+    "date": "October 25, 2022",
+    "expires": "November 8, 2022"
   }
 ]
