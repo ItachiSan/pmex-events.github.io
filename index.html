@@ -1,4 +1,24 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><!--[if IE]><link rel="icon" href="/pmex-events//img/icons/favicon.ico"><![endif]--><title>Pokémon Masters Events</title><meta name="description" content="Pokemon Masters Events' Countdown by Giovanni Santini, based on antocs#0900 work"><meta property="og:image" content="/pmex.png"/><script>// Single Page Apps for GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Imported from the old page-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Pokémon Masters Events</title>
+    <meta name="description" content="Pokemon Masters Events' Countdown by Giovanni Santini, based on antocs#0900 work">
+    <link rel="icon" href="/pmex-events/img/icons/favicon.ico">
+    <!-- Original source: https://upload.wikimedia.org/wikipedia/en/0/03/Pokemonmaster.png -->
+    <meta property="og:image" content="/img/pmex.png" />
+    <!-- link id="favicon" rel="icon" href="/pmex.png" type="image/x-icon" -->
+    <!-- New icons required from vite-plugin-pwa -->
+    <link rel="apple-touch-icon" href="/pmex-events/img/icons/apple-touch-icon.png" sizes="180x180">
+    <link rel="mask-icon" href="/pmex-events/img/icons/android-chrome-maskable-512x512.png">
+    <meta name="theme-color" content="#f97f2c">
+
+    <!-- Allow SPA on Github, thanks to rafgraph! See info below and in 404.html ;) -->
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
       // MIT License
       // https://github.com/rafgraph/spa-github-pages
       // This script checks to see if a redirect is present in the query string,
@@ -10,11 +30,25 @@
       // the single page app to route accordingly.
       (function(l) {
         if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
+          var decoded = l.search.slice(1).split('&').map(function(s) {
             return s.replace(/~and~/g, '&')
           }).join('?');
           window.history.replaceState(null, null,
               l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
-      }(window.location))</script><script defer="defer" src="/pmex-events/js/chunk-vendors.c3e86feb.js"></script><script defer="defer" src="/pmex-events/js/app.790f1cb7.js"></script><link href="/pmex-events/css/app.4b06d6e3.css" rel="stylesheet"><link rel="icon" type="image/svg+xml" href="/pmex-events/img/icons/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="/pmex-events/img/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/pmex-events/img/icons/favicon-16x16.png"><link rel="manifest" href="/pmex-events/manifest.json"><meta name="theme-color" content="#f97f2c"><meta name="apple-mobile-web-app-capable" content="no"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Pokémon Masters EX Events"><link rel="apple-touch-icon" href="/pmex-events/img/icons/apple-touch-icon-152x152.png"><link rel="mask-icon" href="/pmex-events/img/icons/safari-pinned-tab.svg" color="#f97f2c"><meta name="msapplication-TileImage" content="/pmex-events/img/icons/msapplication-icon-144x144.png"><meta name="msapplication-TileColor" content="#363434"></head><body><noscript><strong>We're sorry but Pokémon Masters Events doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+      }(window.location))
+    </script>
+    <!-- Manually add the script, required by Vite -->
+    
+    <script type="module" crossorigin src="/pmex-events/assets/index.51385dbc.js"></script>
+    <link rel="stylesheet" href="/pmex-events/assets/index.d51aa2d3.css">
+  <link rel="manifest" href="/pmex-events/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/pmex-events/registerSW.js"></script></head>
+  <body>
+    <noscript>
+      <strong>We're sorry but "Pokémon Masters Events" doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
