@@ -1,15 +1,22 @@
-import { publicPath } from "../../vue.config";
+// BASE_URL is defined in our Vite config and will be injected correctly both when building and developing.
+// Disable the rule temporarily and then re-enable it.
+/* eslint-disable no-undef */
+const rumorsJsonUrl = `${BASE_URL}rumors.json`;
+const announcementsJsonUrl = `${BASE_URL}announcements.json`;
+/* eslint-enable no-undef */
 
-export function load_rumors() {
-  return fetch(publicPath + "rumors.json")
-    .then((response) => response.json())
-    .then((events) => flatten_events(events));
+async function load_data(json_path) {
+  const response = await fetch(json_path);
+  const events = await response.json();
+  return flatten_events(events);
 }
 
-export function load_announcements() {
-  return fetch(publicPath + "announcements.json")
-    .then((response) => response.json())
-    .then((events) => flatten_events(events));
+export async function load_rumors() {
+  return load_data(rumorsJsonUrl);
+}
+
+export async function load_announcements() {
+  return load_data(announcementsJsonUrl);
 }
 
 export function flatten_events(events) {

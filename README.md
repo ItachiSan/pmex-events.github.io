@@ -2,6 +2,8 @@
 
 A Vue.js version of [pm-events.github.io](https://github.com/pm-events/pm-events.github.io).
 
+Since 2022-09-28, the project moved to Vite for tooling from the Webpack-based Vue CLI.
+
 ## Generate new rumors
 In `bin/events.log`, paste the dates provided in the Discord channel. The format should be:
 ```
@@ -40,12 +42,17 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run start
 ```
 
 ### Compiles and minifies for production
 ```
 npm run build
+```
+
+### Preview the production build
+```
+npm run start:prod
 ```
 
 ### Lints and fixes files
@@ -54,4 +61,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuring Vite](https://vitejs.dev/config/).

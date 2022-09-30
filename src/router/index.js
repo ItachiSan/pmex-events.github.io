@@ -39,10 +39,8 @@ const routes = [
   },
 ];
 
-import { publicPath } from "../../vue.config";
-
 const router = createRouter({
-  history: createWebHistory(publicPath),
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
 
