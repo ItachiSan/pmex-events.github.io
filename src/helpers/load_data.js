@@ -1,5 +1,9 @@
+// BASE_URL is defined in our Vite config and will be injected correctly both when building and developing.
+// Disable the rule temporarily and then re-enable it.
+/* eslint-disable no-undef */
 const rumorsJsonUrl = `${BASE_URL}rumors.json`;
 const announcementsJsonUrl = `${BASE_URL}announcements.json`;
+/* eslint-enable no-undef */
 
 async function load_data(json_path) {
   const response = await fetch(json_path);
