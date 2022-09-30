@@ -7,7 +7,6 @@ bin/new_rumors.json
 node_modules
 /dist
 
-
 # local env files
 .env.local
 .env.*.local
