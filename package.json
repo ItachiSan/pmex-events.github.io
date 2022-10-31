@@ -1,6 +1,6 @@
 {
   "name": "pmex_events",
-  "version": "2022.09.27",
+  "version": "2022.10.31",
   "private": true,
   "scripts": {
     "start": "vite",
