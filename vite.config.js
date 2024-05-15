@@ -24,7 +24,7 @@ export default defineConfig(({ mode }) => {
             "App tracking all the events happening in Pokémon Masters EX",
           theme_color: "#f97f2c",
           background_color: "#363434",
-          id: "io.github.itachisan.pmex_events",
+          id: "",
           icons: [
             {
               src: "./img/icons/android-chrome-192x192.png",

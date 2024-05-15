@@ -19,6 +19,9 @@ export default {
     return {
       events: [],
       longMessage: `
+        Warning: The app is discontinued and is not updated anymore.
+        Please use the <a href="https://pm-events.github.io/">other event tracker</a>.
+        <br><br>
         Use one of the above buttons for viewing events or reaching other websites.
         <br><br>
         You can also check the source code of this project
